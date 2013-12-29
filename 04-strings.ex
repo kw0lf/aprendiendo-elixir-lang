@@ -25,7 +25,14 @@ Soy una cadena
 multilínea.
 """
 
+# Salida de texto multilínea
 IO.puts soymultilinea
+
+# Secuencias de escape
+# \n : Salto de línea
+# \t : Tabulador
+# \s : Un espacio
+# \\ : Inserta la diagonal dentro del texto
 
 # El módulo String contiene un conjunto de funciones para operar sobre cadenas:
 # http://elixir-lang.org/docs/stable/String.html

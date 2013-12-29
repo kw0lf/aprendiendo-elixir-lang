@@ -20,3 +20,6 @@ multilínea.
 """
 
 IO.puts soymultilinea
+
+# El módulo String contiene un conjunto de funciones para operar sobre cadenas:
+# http://elixir-lang.org/docs/stable/String.html

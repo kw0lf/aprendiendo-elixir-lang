@@ -9,4 +9,5 @@ IO.puts is_integer(otroentero)
 # Operando un suma con los dos enteros
 resultado = entero + otroentero
 
-IO.puts resultado
+# Estos valores se pueden interpolar en un mensaje de salida:
+IO.puts "Resultado de la suma de #{entero} y #{otroentero}: #{resultado}"

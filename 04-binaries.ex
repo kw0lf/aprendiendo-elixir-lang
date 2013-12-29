@@ -5,7 +5,7 @@ mitexto = "Hola, niños.\n" # \n es un salto de línea
 
 # La función is_binary() comprueba si un valor es del tipo binario
 # (que para fines prácticos es nuestro modo de identificar cadenas de texto en Elixir)
-is_binary(mitexto)
+is_binary(mitexto) # Devuelve true o false
 
 # Las cadenas de texto se pueden concatenar con <>
 mensaje = mitexto <> "Bienvenidos a la programación con Elixir."

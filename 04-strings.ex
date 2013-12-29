@@ -7,6 +7,12 @@ mitexto = "Hola, niños.\n" # \n es un salto de línea
 # (que para fines prácticos es nuestro modo de identificar cadenas de texto en Elixir)
 is_binary(mitexto) # Devuelve true o false
 
+# Las cadenas van dentro de comillas dobles, cuando se colocan dentro de
+# comillas simples, lo que resulta es una lista de caracteres
+listadecaracteres = 'abcd'
+is_binary(listadecaracteres) 	# Devuelve false
+is_list(listadecaracteres) 	# Devuelve true
+
 # Las cadenas de texto se pueden concatenar con <>
 mensaje = mitexto <> "Bienvenidos a la programación con Elixir."
 

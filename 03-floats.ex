@@ -14,10 +14,20 @@ resultado =  flotante + otroflotante
 IO.puts "Resultado de la suma: #{resultado}"
 
 # Funciones para trabajar con valores de punto flotante
-##  Ceil()
+##  Ceil(número)
 ##  Redondea un flotante al entero mayor o igual
 
-techo= Float.ceil(21.2)
+techo = Float.ceil(21.2)
 
 # Salida 
 IO.puts "La función ceil(21.2) devuelve #{techo}"
+
+## floor(número)
+## Redondea un flotante al entero menor o igual
+
+piso = Float.floor(21.2)
+
+# Salida 
+IO.puts "La función floor(21.2) devuelve #{piso}"
+
+# Más ejemplos del módulo Float en http://elixir-lang.org/docs/stable/Float.html

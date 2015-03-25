@@ -27,3 +27,6 @@ otratupla = {soytupla, :mx, 2013}
 # Obtener el 3er elemento de una tupla anidada
 elem elem(otratupla,0), 2
 
+# Reemplazar el valor de un determinado elemento en la tupla
+put_elem soytupla, 1, "Luis"
+# Devuelve: {1, "Luis", :programador, 12.34}

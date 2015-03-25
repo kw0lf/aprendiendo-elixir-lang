@@ -1,4 +1,6 @@
 # Hola mundo
+# Para ejecutar este ejercicio escribe en la terminal: elixir 01-hola-mundo.ex
+
 IO.puts "Hola, Mundo."
 # IO es un módulo de la biblioteca estándar de Elixir. Los modulos pueden hacer tareas o acciones.
 # A las "tareas" de un módulo les llamamos funciones. La función "puts" del módulo IO envía un valor a un dispositivo.

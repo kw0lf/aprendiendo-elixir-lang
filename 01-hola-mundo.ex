@@ -1,5 +1,6 @@
 # Hola mundo
 # Para ejecutar este ejercicio escribe en la terminal: elixir 01-hola-mundo.ex
+# O ejecuta iex (el interprete de Elixir) y escribe cada ejemplo que no está precedido por el signo #
 
 IO.puts "Hola, Mundo."
 # IO es un módulo de la biblioteca estándar de Elixir. Los modulos pueden hacer tareas o acciones.
@@ -11,7 +12,7 @@ miNombre = "Mario"
 
 # Hacer un llamado a una variable devuelve el valor que contiene:
 miNombre
-# Devuelve "Mario"
+# Dentro de iex devuelve "Mario"
 
 # Las variables guardan valores de diversas clases o tipos, en el ejemplo siguiente, un número:
 saldo = 1000

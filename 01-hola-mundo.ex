@@ -10,7 +10,7 @@ IO.puts "Hola, Mundo."
 # Variables: cuando un valor tiene un nombre
 miNombre = "Mario"
 
-# Hacer un llamado a una variable devuelve el valor que contiene:
+# Expresar una variable devuelve el valor que contiene:
 miNombre
 # Dentro de iex devuelve "Mario"
 

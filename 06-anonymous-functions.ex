@@ -48,8 +48,8 @@ mlt.(2, xcien.(2)) # Devuelve 400
 # Las funciones anónimas pueden declararse con expresiones más largas,
 # nombres más descriptivos y dando uso a varias líneas de escritura:
 
-area_rect = fn base, altura
-  -> base * altura
+area_triangulo = fn base, altura
+  -> base * altura / 2
 end
 
 # En un sentido opuesto, las funciones anónimas también pueden ser expresadas
@@ -65,14 +65,14 @@ xcien.(20) # Devuelve 2000
 # Una función anónima sucinta con más de un argumento:
 mlt = &(&1 * &2)
 
-mlt.(2, 2) # Devuelve 4.
+mlt.(2, 3) # Devuelve 6.
 
-# Nuestra función para calcular el área de un rectángulo con el signo "&" sería
+# Nuestra función para calcular el área de un triángulo con el signo "&" sería
 # algo como lo siguiente:
 
-ar = &(&1 * &2)
+at = &(&1 * &2 / 2)
 
-ar.(3, 2.5) # Devuelve 7.5
+at.(11, 7) # Devuelve 38.5
 
 # Un argumento usado múltiples veces en una función:
 cubo = &(&1 * &1 * &1)

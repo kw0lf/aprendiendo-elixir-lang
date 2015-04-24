@@ -59,16 +59,16 @@ xcien = &(&1 * 100)
 xcien.(20) # Devuelve 2000
 
 # El signo "&" hace las veces de la palabra clave "fn". Este mismo signo declara
-# argumentos cuando precede a un número, en el ejemplo es ""&1", es decir, el
+# argumentos cuando precede a un número, en el ejemplo es "&1", es decir, el
 # primer argumento.
 
-# Una fución anónima sucinta con más de un argumento:
+# Una función anónima sucinta con más de un argumento:
 mlt = &(&1 * &2)
 
 mlt.(2, 2) # Devuelve 4.
 
 # Nuestra función para calcular el área de un rectángulo con el signo "&" sería
-# algo como lo que sigue:
+# algo como lo siguiente:
 
 ar = &(&1 * &2)
 

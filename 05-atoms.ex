@@ -19,4 +19,4 @@ is_atom false	# Devuelve true
 
 # El verdadero alcance de los atoms se comenzará a apreciar en la media que se
 # les de uso en combinación con otros tipos de datos para crear estructuras
-# lógicas con pottern-matching, un tema que veremos dentro de poco tiempo.
+# lógicas con pattern-matching, un tema que veremos dentro de poco tiempo.

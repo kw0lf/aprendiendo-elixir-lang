@@ -1,13 +1,19 @@
-# Una tuple o tupla sirve para conjuntar valores
-# Tales valores se incorporan a la tupla en la forma {Item1, Item2, ..., ItemN}
+# Tuple o tupla, sirve para conjuntar valores
+# Tales valores se incorporan a la tupla en la forma {Item1, Item2, ..., ItemN}.
+
+# No es indispensable que el contenido de la tupla consista en valores del
+# mismo tipo, la variedad es aceptada.
+
 soytupla = {1, "Mario", :programador, 12.34}
 
 # Los valores dentro de la tupla se organizan a partir de la posición cero.
-# Para obtener alguno de los valores dentro de la tupla se usa la función elem
+# Para obtener alguno de los valores dentro de la tupla se usa la función "elem":
+
 elem soytupla, 1	# Devuelve "Mario"
 elem soytupla, 2	# Devuelve :programador
 
-# Determinar el tipo de dato de uno de los valores de la tupla es relativamente simple
+# Determinar el tipo de dato de uno de los valores de la tupla es relativamente
+#  simple
 is_atom elem(soytupla,2)	# Devuelve true
 
 # Identificar un elemento de tipo tupla, es más simple

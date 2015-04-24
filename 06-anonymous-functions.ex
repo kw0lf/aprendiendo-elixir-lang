@@ -53,7 +53,7 @@ area_rect = fn base, altura
 end
 
 # En un sentido opuesto, las funciones anónimas también pueden ser expresadas
-# suscintamente con el signo "&" u "Operador de Captura":
+# sucintamente con el signo "&" u "Operador de Captura":
 xcien = &(&1 * 100)
 
 xcien.(20) # Devuelve 2000
@@ -62,7 +62,7 @@ xcien.(20) # Devuelve 2000
 # argumentos cuando precede a un número, en el ejemplo es ""&1", es decir, el
 # primer argumento.
 
-# Una fución anónima suscinta con más de un argumento:
+# Una fución anónima sucinta con más de un argumento:
 mlt = &(&1 * &2)
 
 mlt.(2, 2) # Devuelve 4.

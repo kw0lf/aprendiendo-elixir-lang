@@ -13,7 +13,7 @@ listadecaracteres = 'abcd'
 is_binary(listadecaracteres) 	# Devuelve false
 is_list(listadecaracteres) 	# Devuelve true
 
-# Las cadenas de texto se pueden concatenar con <>
+# Las cadenas de texto se pueden concatenar con "<>":
 mensaje = mitexto <> "Bienvenidos a la programación con Elixir."
 
 # Salida del mensaje

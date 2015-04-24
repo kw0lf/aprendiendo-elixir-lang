@@ -49,7 +49,7 @@ mlt.(2, xcien.(2)) # Devuelve 400
 # nombres más descriptivos y dando uso a varias líneas de escritura:
 
 area_rect = fn base, altura
-  -> base * altura / 2
+  -> base * altura
 end
 
 # En un sentido opuesto, las funciones anónimas también pueden ser expresadas
@@ -70,9 +70,9 @@ mlt.(2, 2) # Devuelve 4.
 # Nuestra función para calcular el área de un rectángulo con el signo "&" sería
 # algo como lo que sigue:
 
-ar = &(&1 * &2 / 2)
+ar = &(&1 * &2)
 
-ar.(3, 2.5) # Devuelve 3.75
+ar.(3, 2.5) # Devuelve 7.5
 
 # Un argumento usado múltiples veces en una función:
 cubo = &(&1 * &1 * &1)

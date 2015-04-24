@@ -1,4 +1,4 @@
-# Floats, o valores de punto flotante, o decimales, son el segundo tipo de dato
+# Floats, o valores de punto flotante, o decimales, es el segundo tipo de dato
 # númerico soportado por Elixir.
 
 # Elixir trabaja los floats con una cantidad limitada de cifras decimales,
